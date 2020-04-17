@@ -1,4 +1,4 @@
-package br.com.gft.meuprojeto;
+package br.com.gft.frasedodia;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("br.com.gft.meuprojeto", appContext.getPackageName());
+        assertEquals("br.com.gft.frasedodia", appContext.getPackageName());
     }
 }

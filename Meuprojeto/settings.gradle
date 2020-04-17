@@ -1,2 +1,2 @@
-rootProject.name='Meu projeto'
+rootProject.name='FraseDoDia'
 include ':app'

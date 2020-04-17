@@ -7,35 +7,35 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textoExibicao"
-        android:layout_width="wrap_content"
+        android:id="@+id/fraseNova"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
-        android:text="Escolha um número entre 0  e 10."
-        android:textSize="18sp"
+        android:layout_marginTop="56dp"
+        android:text="Pressione o botão para gerar uma nova frase."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:onClick="alterarTexto"
-        android:text="Jogar"
+        android:layout_marginTop="52dp"
+        android:onClick="geraFrase"
+        android:text="Nova Frase"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textoExibicao" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <TextView
-        android:id="@+id/numeroEscolhido"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:text="Nenhum número escolhido"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

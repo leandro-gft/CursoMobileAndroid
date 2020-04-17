@@ -1,4 +1,4 @@
-package br.com.gft.meuprojeto;
+package br.com.gft.frasedodia;
 
 import org.junit.Test;
 
