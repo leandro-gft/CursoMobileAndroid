@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void alterarTexto(View view){
         TextView texto = findViewById(R.id.numeroEscolhido);
-        Random numero = new Random();
-        texto.setText("Numero escolhido: "+ numero.nextInt(10));
+        int numero = new Random().nextInt(11);
+        texto.setText("Numero escolhido: "+ numero);
     }
 
 
